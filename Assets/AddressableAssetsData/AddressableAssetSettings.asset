@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_GeneratorAsset: {fileID: 0}
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
@@ -65,11 +64,9 @@ MonoBehaviour:
   - m_displayName: Packed Assets
     m_description: Pack asset sinto asset bundles.
     m_schemaTypes:
-    - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
+    - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_className: UnityEditor.AddressableAssets.BundledAssetGroupSchema
-    - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
+    - m_assemblyName: Unity.Addressables.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       m_className: UnityEditor.AddressableAssets.ContentUpdateGroupSchema
   m_initializationObjects: []
   m_activePlayerDataBuilderIndex: 2
